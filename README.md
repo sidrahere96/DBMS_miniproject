@@ -11,14 +11,16 @@ It provides secure admin login, car management, and real-time booking synchroniz
 ```bash
 git clone https://github.com/sidrahere96/sidra-1.git
 cd sidra-1/Car_rental
-
-2️⃣ Create and Activate Virtual Environment
+```
+### 2️⃣ Create and Activate Virtual Environment
+```bash
 python -m venv venv
 .\venv\Scripts\activate      # Windows
 # or
 source venv/bin/activate     # macOS / Linux
-
-3️⃣ Install Dependencies
+```
+### 3️⃣ Install Dependencies
+```bash
 pip install -r requirements.txt
 
 🔐 Environment Configuration
@@ -49,7 +51,7 @@ In Project Settings → Service Accounts, generate a private key JSON
 
 Save it at
 C:\Users\Admin\firebase_keys\serviceAccountKey.json
-
+```
 ▶️ Run the Application
 python main.py
 
