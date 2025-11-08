@@ -34,3 +34,35 @@ echo GOOGLE_APPLICATION_CREDENTIALS=C:\Users\Admin\firebase_keys\serviceAccountK
 
 # 5. Run the Application
 python main.py
+```
+### FIREBASE SETUP
+```bash
+# 1. Go to https://console.firebase.google.com
+# 2. Create a new project
+# 3. Enable Realtime Database or Firestore
+# 4. Go to Project Settings → Service Accounts
+# 5. Generate a new private key JSON
+# 6. Save it securely at:
+#    C:\Users\Admin\firebase_keys\serviceAccountKey.json
+```
+### FOLDER STRUCTURE
+```bash
+Car_rental/
+│
+├── ui/                # GUI components
+├── models/            # Data models
+├── auth.py            # Authentication logic
+├── database.py        # Firebase connection
+├── config.py          # Config loader
+├── utils.py           # Helper utilities
+├── main.py            # Application entry point
+├── requirements.txt   # Dependencies
+└── .env               # Environment variables
+```
+
+###REQUIREMENT
+```bash
+# 1. Never commit .env or secret JSON files
+# 2. If keys are exposed, revoke and regenerate in Firebase Console
+# 3. Use GitHub Push Protection to block accidental secret uploads
+```
