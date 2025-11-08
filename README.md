@@ -60,7 +60,7 @@ Car_rental/
 └── .env               # Environment variables
 ```
 
-###REQUIREMENT
+### REQUIREMENT
 ```bash
 # 1. Never commit .env or secret JSON files
 # 2. If keys are exposed, revoke and regenerate in Firebase Console
